@@ -12,7 +12,7 @@ gem 'sdoc', '0.4.0', group: :doc
 gem 'heroku', '~> 3.4.0'
 
 
-group :development, :test do
+group :production, :development, :test do
   gem 'sqlite3','1.3.9'
   gem 'byebug','3.4.0'
   gem 'web-console', '2.0.0.beta3'
